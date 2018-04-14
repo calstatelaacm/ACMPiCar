@@ -1,0 +1,13 @@
+#!/bin/bash
+# A script to start the Python Files on Startup
+
+# change directory to where the python script is
+cd /home/pi/Desktop/
+
+# run the file
+./CheckBluetoothFiles.py
+
+# NOTE:
+# to ensure that the python file is executable:
+# cd DIRECTORY/TO/FILENAME.py
+# chmod +x FILENAME.py
